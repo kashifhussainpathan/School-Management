@@ -1,0 +1,32 @@
+.school-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.school {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.school div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+  width: 300px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: var(--box-shadow-color);
+  box-shadow: 0px 0px 4px 0px var(--box-shadow-color);
+}
+
+.school div .records {
+  display: block;
+  font-size: 3rem;
+}

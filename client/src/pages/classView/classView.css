@@ -1,0 +1,39 @@
+.class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  width: 150px;
+
+  text-align: center;
+}
+
+th {
+  color: var(--background-color);
+  background-color: var(--color);
+  height: 30px;
+  border: var(--background-color);
+}
+
+td {
+  border: 1px solid var(--color);
+  height: 40px;
+}

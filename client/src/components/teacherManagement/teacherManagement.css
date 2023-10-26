@@ -1,0 +1,21 @@
+.teachers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  height: 90vh;
+}
+
+.teacher-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  height: 90vh;
+}
+
+ul li span {
+  font-weight: 600;
+}

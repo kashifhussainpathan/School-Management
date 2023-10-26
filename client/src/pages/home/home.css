@@ -1,0 +1,18 @@
+.home {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/free-vector/vector-cartoon-illustration-school-building-green-lawn-road-trees-educalion-l_134830-1588.jpg?w=1380&t=st=1698331667~exp=1698332267~hmac=1be8d9175ad7d9d022f49e415d06f5d2acc33e16818a0e11ed92c87a559031de");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.home h1 {
+  background-color: #082f4997;
+  padding: 0.5rem 1rem;
+  backdrop-filter: blur(3px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
