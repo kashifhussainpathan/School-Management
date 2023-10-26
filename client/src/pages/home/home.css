@@ -1,7 +1,7 @@
 .home {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("https://img.freepik.com/free-vector/vector-cartoon-illustration-school-building-green-lawn-road-trees-educalion-l_134830-1588.jpg?w=1380&t=st=1698331667~exp=1698332267~hmac=1be8d9175ad7d9d022f49e415d06f5d2acc33e16818a0e11ed92c87a559031de");
+  background-image: url("../../assets/school.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
