@@ -1,7 +1,7 @@
 import axios from "axios";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-const BASE_URL = "http://localhost:4000/teachers";
+const BASE_URL = "https://school-management-hgda.onrender.com/teachers";
 
 export const fetchTeachers = createAsyncThunk(
   "teachers/fetchTeachers",
