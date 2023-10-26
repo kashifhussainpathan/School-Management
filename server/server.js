@@ -13,7 +13,9 @@ const teacherRouter = require("./routes/teacher.route");
 const app = express();
 const PORT = process.env.PORT || 2000;
 
-app.use(cors());
+const corsOptions = { origin: "*" };
+
+app.use(cors(corsOptions));
 app.use(helmet());
 app.use(express.json());
 app.use("/students", studentRouter);
