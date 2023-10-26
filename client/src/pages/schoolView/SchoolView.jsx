@@ -33,17 +33,17 @@ const SchoolView = () => {
 
         <div>
           <span>Average Attendance: </span>{" "}
-          <span className="records">{avgAttendance.toFixed(2)}% </span>{" "}
+          <span className="records">{avgAttendance?.toFixed(2)}% </span>{" "}
         </div>
 
         <div>
           <span>Average Marks: </span>
-          <span className="records">{avgMarks.toFixed(2)} </span>
+          <span className="records">{avgMarks?.toFixed(2)} </span>
         </div>
 
         <div>
           <span>Top-performing Student: </span>
-          <span className="records">{topStudent.name} </span>
+          <span className="records">{topStudent?.name} </span>
         </div>
       </div>
     </div>
