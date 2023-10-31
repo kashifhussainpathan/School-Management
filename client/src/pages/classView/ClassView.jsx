@@ -15,6 +15,8 @@ const ClassView = () => {
   const students = useSelector((state) => state.students.students);
   const { teachers } = useSelector(({ teachers }) => teachers);
 
+  console.log(teachers);
+
   const handleClassChange = (e) => {
     setSelectedClass(e.target.value);
   };
@@ -47,9 +49,10 @@ const ClassView = () => {
   }
 
   useEffect(() => {
-    if (teachers.length === 0 && students.length === 0)
+    if (teachers.length === 0 && students.length === 0) {
       dispatch(fetchStudents());
-    dispatch(fetchTeachers());
+      dispatch(fetchTeachers());
+    }
   }, [teachers, students]);
 
   return (
