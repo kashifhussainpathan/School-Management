@@ -13,6 +13,12 @@ const Navbar = () => {
         <NavLink to="/teachers">Teachers</NavLink>
         <NavLink to="/classView">Class</NavLink>
         <NavLink to="/schoolView">School</NavLink>
+        <a
+          href="https://github.com/kashifhussainpathan/School-Management.git"
+          target="_blank"
+        >
+          Github
+        </a>
       </div>
     </nav>
   );
